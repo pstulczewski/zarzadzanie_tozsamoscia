@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <!-- Dodanie pliku login.css w celu ostylowania poszczególnych elementów formularza  -->
+  <link type="text/css" rel="stylesheet" href="login.css" media="screen">
+</head>
+
+<body>
+  <main id="main-holder">
+    <h1 id="login-header">Login</h1>
+
+    <form id="login-form">
+      <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
+      <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
+      <input type="submit" value="Login" id="login-form-submit">
+    </form>
+    <!-- Div dla wyświetlenia komunikatu o błędzie w przypadku niepoprawnego loginu lub hasła -->
+    <div id="login-error-msg">
+      <p>Niepoprawny login lub hasło</p>
+    </div>
+    <div>
+
+    </div>
+  </main>
+  <!-- Dołączenie skryptu login.js, który obsłuży logowanie użytkownika  -->
+  <script type="text/javascript" id="" src="login.js"></script>
+</body>
+</html>
